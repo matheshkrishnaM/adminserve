@@ -1,0 +1,7 @@
+package com.example.adminservice.exceptions;
+
+public class NameException extends Exception {
+    public NameException(String message){
+        super(message);
+    }
+}
